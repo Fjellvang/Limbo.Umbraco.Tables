@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <LangVersion>10.0</LangVersion>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <StaticWebAssetBasePath>App_Plugins/$(AssemblyName)</StaticWebAssetBasePath>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -30,10 +30,10 @@
 
   <!-- Include NuGet dependencies -->
   <ItemGroup>
-    <PackageReference Include="Skybrud.Essentials" Version="1.1.48" />
-    <PackageReference Include="Umbraco.Cms.Core" Version="[10.0.0,12.999)" />
-    <PackageReference Include="Umbraco.Cms.Web.Website" Version="[10.0.0,12.999)" />
-    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="[10.0.0,12.999)" />
+    <PackageReference Include="Skybrud.Essentials" Version="1.1.53" />
+    <PackageReference Include="Umbraco.Cms.Core" Version="12.3.3" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="12.3.3" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="12.3.3" />
   </ItemGroup>
 
   <!-- Backoffice assets -->
