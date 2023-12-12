@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <LangVersion>10.0</LangVersion>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <StaticWebAssetBasePath>App_Plugins/$(AssemblyName)</StaticWebAssetBasePath>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <PropertyGroup>
-    <VersionPrefix>1.0.3</VersionPrefix>
+    <VersionPrefix>1.1.2</VersionPrefix>
     <VersionSuffix Condition="'$(Configuration)'=='Debug'">build$([System.DateTime]::UtcNow.ToString(`yyyyMMddHHmm`))</VersionSuffix>
     <Company>Limbo</Company>
     <Authors>Anders Bjerner</Authors>
@@ -30,10 +30,10 @@
 
   <!-- Include NuGet dependencies -->
   <ItemGroup>
-    <PackageReference Include="Skybrud.Essentials" Version="1.1.48" />
-    <PackageReference Include="Umbraco.Cms.Core" Version="[10.0.0,12.999)" />
-    <PackageReference Include="Umbraco.Cms.Web.Website" Version="[10.0.0,12.999)" />
-    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="[10.0.0,12.999)" />
+    <PackageReference Include="Skybrud.Essentials" Version="1.1.52" />
+    <PackageReference Include="Umbraco.Cms.Core" Version="12.3.4" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="12.3.4" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="12.3.4" />
   </ItemGroup>
 
   <!-- Backoffice assets -->
